@@ -16,3 +16,6 @@ logs/
 # System
 .DS_Store
 Thumbs.db
+
+#csv files
+*.csv
