@@ -149,7 +149,7 @@ Long-term trend analysis across years
 
 Country-wise and indicator-wise comparisons
 
-Growth rate evaluation and YoY analysis
+Growth rate evaluation analysis
 
 Dynamic filtering without reprocessing data
 
@@ -167,15 +167,20 @@ Year-over-year comparisons
 
 <h2><a class="anchor" id="key-insights"></a>Key Insights</h2>
 
-Aggregate economic values show consistent long-term growth
+Long-Term Aggregate Value Has Grown Consistently Over Time
 
-Recent years demonstrate meaningful YoY improvement
+Recent Period Shows Meaningful Year-over-Year Growth (3.69%)
 
-Economic contributions are highly skewed by country
+Latest Year Contribution Is a Significant Share of Historical Total (60.12T)
 
-The US consistently contributes higher aggregate values
+Country Contribution Is Highly Skewed
 
-Growth rates fluctuate significantly across time periods
+Growth Rates Fluctuate Meaningfully Across Years
+
+Automation Enables Multi-Dimensional Filtering Without Reprocessing
+
+“US” consistently contribute higher aggregate values across indicators
+
 
 <h2><a class="anchor" id="business-recommendations"></a>Business Recommendations</h2>
 
@@ -192,31 +197,32 @@ Extend the solution with forecasting and scenario modeling
 <h2><a class="anchor" id="how-to-run-this-project"></a>How to Run This Project</h2>
 
 Clone the repository:
-
+```bash
 git clone https://github.com/yourusername/economic-data-pipeline.git
-
+```
 
 Navigate to project directory:
-
+```bash
 cd economic-data-pipeline
-
+```
 
 Run the pipeline manually:
-
+```bash
 python scripts/run_pipeline.py
-
+```
 
 (Optional) Schedule execution:
 
-Use run_pipeline.bat with Windows Task Scheduler for automation
+- `Use run_pipeline.bat with Windows Task Scheduler for automation`
 
 Open the Power BI dashboard:
 
-dashboard/economic_macro_model.pbix
+- `dashboard/economic_macro_model.pbix`
 
+---
 <h2><a class="anchor" id="author--contact"></a>Author & Contact</h2>
 
-**Prasanth Reddy Majji**
-Data Analyst 
+**Prasanth Reddy Majji**  
+Data Analyst  
 📧 Email: majjiprasanthreddy@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/prasanthreddymajji)  
+🔗 [LinkedIn](https://www.linkedin.com/in/prasanthreddymajji/)  
