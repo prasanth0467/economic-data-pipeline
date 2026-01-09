@@ -76,13 +76,15 @@ APIs → Raw Storage → Data Validation → Transformation Layer → Analytics 
 
 The pipeline is modular, logged, and designed for incremental refresh without manual intervention.
 
-<h2><a class="anchor" id="project-structure"></a>Project Structure</h2>
-economic-data-pipeline/
+<h2><a class="anchor" id="project-structure"></a>Project Structure</h2> 
+
+```
 economic-data-pipeline/
 │
 ├── README.md
 ├── economic_data.db
 ├── run_pipeline.bat
+├── .gitignore
 │
 ├── data/
 │   ├── raw/                     # Raw ingested data
@@ -94,24 +96,34 @@ economic-data-pipeline/
 │   ├── transform_macro.py
 │   ├── data_quality.py
 │   ├── alert_email.py
+│   ├── incremental_load.py
 │   ├── run_pipeline.py
+│   ├── data_validation.py
+│   ├── export_analytics_tables.py
 │   └── logger.py
+    
 │
 ├── sql/                         # SQL schema and transformations
 │   └── transform_macro.sql
+│   └── legacy_mysql_schema.sql
 │
 ├── logs/                        # Pipeline execution logs
 │   └── pipeline.log
+│   └── pipeline_run.log
+│   └── scheduler.log
 │
 ├── dashboard/
-│   └── economic_insights.pbix
+│   └── economic_macro_model.pbix
+│   └── dashboard.png
 │
-├── report/
-│   └── Project_Report.pdf
+├── docs/
+│   └── architecture.png
+│   └── log_screenshot.png
 │
-├── presentation/
-│   └── Project_Presentation.pptx
-
+├── Automated Data Pipeline report.docx
+│
+├── Automated Data Pipeline.pptx
+```
 
 <h2><a class="anchor" id="data-pipeline-workflow"></a>Data Pipeline Workflow</h2>
 
@@ -151,7 +163,7 @@ Indicator-level growth patterns
 
 Year-over-year comparisons
 
-(Dashboard file included in repository)
+![economic data pipeline Dashboard](dashboard/dashboard.png)
 
 <h2><a class="anchor" id="key-insights"></a>Key Insights</h2>
 
@@ -200,12 +212,11 @@ Use run_pipeline.bat with Windows Task Scheduler for automation
 
 Open the Power BI dashboard:
 
-dashboard/economic_insights.pbix
+dashboard/economic_macro_model.pbix
 
 <h2><a class="anchor" id="author--contact"></a>Author & Contact</h2>
 
-Prasanth Reddy Majji
-Data Analyst | Data Engineering & Analytics
-📧 Email: [add your email]
-🔗 LinkedIn: [add LinkedIn URL]
-🔗 GitHub: [add GitHub profile]
+**Prasanth Reddy Majji**
+Data Analyst 
+📧 Email: majjiprasanthreddy@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/prasanthreddymajji)  
