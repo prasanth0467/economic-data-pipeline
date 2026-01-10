@@ -1,4 +1,4 @@
-🌍 Global Macroeconomic Data Pipeline & Analytics
+🌍 Automated Macro-economic Data Analytics & Pipeline
 
 End-to-end automated data pipeline for collecting, transforming, and analyzing global macroeconomic indicators to support data-driven economic insights and trend analysis.
 
